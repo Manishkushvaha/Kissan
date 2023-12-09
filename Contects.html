@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Farmer Scheme Contects</title>
+    <script>
+		function submitform()
+		{
+		    alert("your Application is submit successfully");
+		}
+		
+		</script>
+    <style>
+        
+        form {
+            margin: 20px;
+            padding: 20px;
+        }
+        
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        
+        footer {
+            margin-top: 50px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="https://literacyindia.org/"><img src="images/literacyslogo.png" width="95px" class="literacylogo"></a><h1>CONTECTS</h1><h1><q>Solving Social Problem Through Design Thinking</q></h1>
+    <img src="images/flag.png" width="180px" class="flaglogo">
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="products.html">Products</a>
+    <a href="Contects.html">Contact</a>
+</nav>
+
+<section>
+    <div>
+        <form action="#" method="post" class="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter Name..." autofocus>
+
+            <label for="subject">Phone:</label>
+            <input type="number" id="subject" name="subject" required placeholder="Enter Phone...">
+    
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter Email...">
+
+    
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Enter Your Massage..."></textarea>
+    
+            <button type="submit" onclick="submitform()">Send Message</button>
+        </form>
+        <p align="center">&copy; 2023 Farmer Scheme Website. All rights reserved. Design by literacy india IT Trainer</p>
+    </div>
+</section>
+</body>
+</html>

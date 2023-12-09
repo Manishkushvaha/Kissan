@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lemonchiffon;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serifs;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+h1{
+    color: yellow;
+}
+
+h2 {
+    color: #333;
+}
+h3 {
+    color: red;
+    font-size: 35px;
+}
+
+.product {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    text-align: justify;
+}
+.literacylogo {
+    float: left;
+    margin-top: 0px
+}
+.flaglogo {
+    float: right; 
+    margin-top: -120px
+}
+.productText
+            {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    text-align: justify;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover:not(.active) {
+    background-color: #4CAF50;
+}
